@@ -1,0 +1,145 @@
+@media (max-width: 950px) {
+
+    .mobile-menu-button {
+        display: block;
+    }
+
+    .nav {
+        position: fixed;
+
+        top: var(--header-height);
+        left: 0;
+
+        display: none;
+        flex-direction: column;
+        align-items: stretch;
+
+        width: 100%;
+
+        max-height:
+            calc(100vh - var(--header-height));
+
+        overflow-y: auto;
+
+        padding: 30px;
+
+        background: white;
+
+        box-shadow: var(--shadow-md);
+    }
+
+    .nav.active {
+        display: flex;
+    }
+
+    .nav > a {
+        padding-block: 5px;
+    }
+
+    .about-grid,
+    .contact-grid,
+    .project-information-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .services-grid {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+    .projects-grid {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+    .footer-grid {
+        grid-template-columns:
+            1fr 1fr;
+    }
+
+    .project-information-grid {
+        gap: 45px;
+    }
+
+}
+
+
+@media (max-width: 650px) {
+
+    :root {
+        --header-height: 70px;
+    }
+
+    .brand img {
+        width: 170px;
+    }
+
+    .hero h1 {
+        font-size:
+            clamp(2.7rem, 14vw, 4.5rem);
+    }
+
+    .hero-actions {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .hero-actions .btn {
+        width: 100%;
+    }
+
+    .services-grid,
+    .projects-grid,
+    .footer-grid,
+    .form-row,
+    .project-gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .about-image,
+    .about-image img {
+        min-height: 430px;
+        height: 430px;
+    }
+
+    .about-values {
+        grid-template-columns: 1fr;
+    }
+
+    .section-heading-row {
+        align-items: flex-start;
+        flex-direction: column;
+
+        gap: 0;
+    }
+
+    .contact-form {
+        padding: 25px;
+    }
+
+    .project-card {
+        min-height: 380px;
+    }
+
+    .gallery-item {
+        height: 300px;
+    }
+
+    .lightbox {
+        padding: 20px;
+    }
+
+    .lightbox-prev {
+        left: 10px;
+    }
+
+    .lightbox-next {
+        right: 10px;
+    }
+
+    .whatsapp-button {
+        right: 15px;
+        bottom: 15px;
+    }
+
+}

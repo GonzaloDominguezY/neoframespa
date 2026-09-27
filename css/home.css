@@ -1,0 +1,424 @@
+/* =========================================
+   HERO
+========================================= */
+
+.hero {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+
+    min-height: 100vh;
+
+    padding-top: var(--header-height);
+
+    overflow: hidden;
+
+    background:
+        url("../assets/images/home/hero.jpg")
+        center / cover no-repeat;
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(2, 15, 35, .97) 0%,
+            rgba(2, 20, 45, .85) 42%,
+            rgba(2, 20, 45, .28) 100%
+        );
+}
+
+.hero-content {
+    position: relative;
+
+    z-index: 2;
+
+    color: white;
+}
+
+.hero-label {
+    display: block;
+
+    max-width: 800px;
+
+    margin-bottom: 22px;
+
+    color: var(--nf-blue-light);
+
+    font-size: .75rem;
+    font-weight: 800;
+
+    letter-spacing: .16em;
+}
+
+.hero h1 {
+    max-width: 900px;
+
+    margin-bottom: 25px;
+
+    color: white;
+
+    font-size:
+        clamp(3rem, 7vw, 6.4rem);
+
+    letter-spacing: -.055em;
+}
+
+.hero h1 span {
+    display: block;
+
+    color: var(--nf-blue);
+}
+
+.hero p {
+    max-width: 610px;
+
+    margin-bottom: 38px;
+
+    color:
+        rgba(255, 255, 255, .78);
+
+    font-size:
+        clamp(1rem, 2vw, 1.2rem);
+}
+
+.hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 12px;
+}
+
+
+/* =========================================
+   ABOUT
+========================================= */
+
+.about-grid {
+    display: grid;
+
+    grid-template-columns:
+        1fr 1fr;
+
+    align-items: center;
+
+    gap:
+        clamp(50px, 8vw, 110px);
+}
+
+.about-image {
+    position: relative;
+
+    min-height: 580px;
+}
+
+.about-image::before {
+    content: "";
+
+    position: absolute;
+
+    z-index: -1;
+
+    top: -25px;
+    left: -25px;
+
+    width: 180px;
+    height: 180px;
+
+    border-top:
+        3px solid var(--nf-blue);
+
+    border-left:
+        3px solid var(--nf-blue);
+}
+
+.about-image img {
+    width: 100%;
+    height: 580px;
+
+    object-fit: cover;
+
+    border-radius: var(--radius-md);
+
+    box-shadow: var(--shadow-md);
+}
+
+.about-content p {
+    color: var(--nf-gray-600);
+}
+
+.about-values {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 20px;
+
+    margin-top: 40px;
+
+    padding-top: 30px;
+
+    border-top:
+        1px solid var(--nf-gray-200);
+}
+
+.about-values div {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-values strong {
+    color: var(--nf-navy);
+}
+
+.about-values span {
+    color: var(--nf-gray-600);
+
+    font-size: .84rem;
+}
+
+
+/* =========================================
+   SERVICES
+========================================= */
+
+.services {
+    background: var(--nf-gray-50);
+}
+
+.services-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    margin-top: 55px;
+
+    border-top:
+        1px solid var(--nf-gray-200);
+
+    border-left:
+        1px solid var(--nf-gray-200);
+}
+
+.service-card {
+    min-height: 315px;
+
+    padding: 38px 30px;
+
+    background: white;
+
+    border-right:
+        1px solid var(--nf-gray-200);
+
+    border-bottom:
+        1px solid var(--nf-gray-200);
+
+    transition:
+        transform var(--transition),
+        box-shadow var(--transition);
+}
+
+.service-card:hover {
+    position: relative;
+
+    z-index: 2;
+
+    transform:
+        translateY(-7px);
+
+    box-shadow:
+        var(--shadow-md);
+}
+
+.service-number {
+    display: block;
+
+    margin-bottom: 65px;
+
+    color: var(--nf-blue);
+
+    font-size: .78rem;
+    font-weight: 800;
+}
+
+.service-card h3 {
+    font-size: 1.2rem;
+}
+
+.service-card p {
+    margin: 0;
+
+    color: var(--nf-gray-600);
+
+    font-size: .92rem;
+}
+
+
+/* =========================================
+   BLUEPRINT
+========================================= */
+
+.blueprint-section {
+    position: relative;
+
+    min-height: 550px;
+
+    display: flex;
+    align-items: center;
+
+    overflow: hidden;
+
+    background:
+        url("../assets/images/home/blueprint2.jpg")
+        center / cover no-repeat;
+}
+
+.blueprint-overlay {
+    position: absolute;
+    inset: 0;
+
+    background:
+        rgba(3, 38, 82, .73);
+}
+
+.blueprint-content {
+    position: relative;
+
+    z-index: 2;
+
+    max-width: 700px;
+
+    color: white;
+}
+
+.blueprint-content .section-label {
+    color: #8ecbff;
+}
+
+.blueprint-content h2 {
+    color: white;
+
+    font-size:
+        clamp(2.3rem, 5vw, 4.5rem);
+}
+
+.blueprint-content p {
+    color:
+        rgba(255, 255, 255, .8);
+
+    font-size: 1.05rem;
+}
+
+
+/* =========================================
+   PROJECTS
+========================================= */
+
+.section-heading-row {
+    display: flex;
+
+    align-items: flex-end;
+    justify-content: space-between;
+
+    gap: 30px;
+}
+
+.projects-all-link {
+    margin-bottom: 25px;
+
+    color: var(--nf-blue);
+
+    font-weight: 700;
+}
+
+
+/* =========================================
+   CTA
+========================================= */
+
+.cta-section {
+    padding-block: 105px;
+
+    text-align: center;
+
+    background:
+        linear-gradient(
+            135deg,
+            var(--nf-navy),
+            #031a38
+        );
+}
+
+.cta-section span {
+    color: var(--nf-blue-light);
+
+    font-size: .8rem;
+    font-weight: 800;
+
+    letter-spacing: .12em;
+    text-transform: uppercase;
+}
+
+.cta-section h2 {
+    max-width: 850px;
+
+    margin:
+        15px auto 35px;
+
+    color: white;
+
+    font-size:
+        clamp(2rem, 5vw, 4rem);
+}
+
+
+/* =========================================
+   CONTACT
+========================================= */
+
+.contact {
+    background: var(--nf-gray-50);
+}
+
+.contact-grid {
+    display: grid;
+
+    grid-template-columns:
+        .9fr 1.1fr;
+
+    gap:
+        clamp(50px, 8vw, 110px);
+}
+
+.contact-information p {
+    color: var(--nf-gray-600);
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+
+    gap: 12px;
+
+    margin-top: 38px;
+
+    color: var(--nf-navy);
+
+    font-weight: 600;
+}
+
+.contact-form {
+    padding: 40px;
+
+    border-radius: var(--radius-md);
+
+    background: white;
+
+    box-shadow: var(--shadow-sm);
+}

@@ -1,0 +1,58 @@
+:root {
+    /* BRAND */
+    --nf-navy: #062c63;
+    --nf-navy-dark: #031b3d;
+
+    --nf-blue: #1685df;
+    --nf-blue-dark: #0869bb;
+    --nf-blue-light: #45a7ef;
+
+    --nf-white: #ffffff;
+    --nf-black: #070b10;
+
+    --nf-dark: #0b1420;
+    --nf-dark-soft: #121e2d;
+
+    --nf-gray-50: #f8fafc;
+    --nf-gray-100: #f1f5f9;
+    --nf-gray-200: #e2e8f0;
+    --nf-gray-300: #cbd5e1;
+    --nf-gray-400: #94a3b8;
+    --nf-gray-500: #64748b;
+    --nf-gray-600: #475569;
+    --nf-gray-700: #334155;
+    --nf-gray-800: #1e293b;
+
+    /* TYPOGRAPHY */
+    --font-primary:
+        "Inter",
+        "Segoe UI",
+        Arial,
+        sans-serif;
+
+    --font-heading:
+        "Montserrat",
+        Arial,
+        sans-serif;
+
+    /* LAYOUT */
+    --container: 1200px;
+    --header-height: 82px;
+
+    --section-padding:
+        clamp(75px, 8vw, 125px);
+
+    /* UI */
+    --radius-sm: 6px;
+    --radius-md: 12px;
+    --radius-lg: 20px;
+
+    --shadow-sm:
+        0 5px 20px rgba(0, 0, 0, .08);
+
+    --shadow-md:
+        0 15px 45px rgba(0, 0, 0, .15);
+
+    --transition:
+        250ms ease;
+}
