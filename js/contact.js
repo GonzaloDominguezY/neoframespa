@@ -66,15 +66,20 @@ document.addEventListener(
                         ?.trim();
 
 
+                const privacyConsent =
+                    formData.get("privacyConsent");
+
+
                 if (
                     !name ||
                     !phone ||
                     !email ||
-                    !projectMessage
+                    !projectMessage ||
+                    !privacyConsent
                 ) {
 
                     message.textContent =
-                        "Completa todos los campos obligatorios.";
+                        "Completa los campos obligatorios y acepta la Política de Privacidad.";
 
                     return;
 

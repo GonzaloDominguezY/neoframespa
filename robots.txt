@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gonzalodominguezy.github.io/neoframespa/sitemap.xml

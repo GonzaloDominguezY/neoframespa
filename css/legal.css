@@ -1,0 +1,30 @@
+/* NeoFrame SpA - páginas legales */
+.legal-page { padding: calc(var(--header-height) + 70px) 0 90px; background: var(--nf-gray-50); }
+.legal-document { max-width: 900px; margin: 0 auto; padding: 48px; background: white; border-radius: var(--radius-md); box-shadow: var(--shadow-sm); }
+.legal-document h1 { margin-bottom: 12px; font-size: clamp(2.2rem, 5vw, 3.6rem); }
+.legal-document h2 { margin: 38px 0 12px; font-size: 1.45rem; }
+.legal-document p, .legal-document li { color: var(--nf-gray-600); }
+.legal-document ul { list-style: disc; padding-left: 22px; margin: 12px 0 20px; }
+.legal-document a { color: var(--nf-blue); font-weight: 700; }
+.legal-meta { margin-bottom: 35px; color: var(--nf-gray-500); font-size: .9rem; }
+.legal-back { margin-top: 40px; }
+@media (max-width: 650px) { .legal-document { padding: 28px 22px; } }
+/* =========================================
+   LEGAL PAGE - BACK BUTTON
+========================================= */
+
+.legal-page .btn-primary,
+.legal-content .btn-primary,
+.legal-back .btn-primary {
+    color: #ffffff;
+    background-color: var(--nf-blue);
+    border-color: var(--nf-blue);
+}
+
+.legal-page .btn-primary:hover,
+.legal-content .btn-primary:hover,
+.legal-back .btn-primary:hover {
+    color: #ffffff;
+    background-color: var(--nf-blue-dark);
+    border-color: var(--nf-blue-dark);
+}

@@ -350,7 +350,7 @@
     display: grid;
 
     grid-template-columns:
-        2fr 1fr 1fr;
+        2fr 1fr 1fr 1fr;
 
     gap: 60px;
 
@@ -401,4 +401,36 @@
         rgba(255, 255, 255, .1);
 
     font-size: .8rem;
+}
+
+/* =========================================
+   PRIVACY CONSENT
+========================================= */
+
+.privacy-consent {
+    margin: 4px 0 22px;
+}
+
+.privacy-check {
+    display: flex;
+    align-items: flex-start;
+    gap: 11px;
+    color: var(--nf-gray-600);
+    font-size: .82rem;
+    line-height: 1.55;
+}
+
+.privacy-check input {
+    width: 18px;
+    height: 18px;
+    margin-top: 2px;
+    flex: 0 0 auto;
+    accent-color: var(--nf-blue);
+}
+
+.privacy-check a {
+    color: var(--nf-blue);
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 2px;
 }
