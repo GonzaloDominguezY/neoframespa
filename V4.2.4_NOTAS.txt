@@ -1,0 +1,9 @@
+NeoFrame V4.2.4 — Corrección de Nuestro proceso
+
+- El contenedor sticky ya no usa translateY(-50%), que podía desplazar visualmente la sección fuera de sus propios límites y superponerla con Servicios.
+- Se añadió separación vertical real entre Servicios y Nuestro proceso.
+- El sticky queda contenido dentro de su propia sección tanto al bajar como al subir.
+- La animación sigue comenzando cuando la sección alcanza aproximadamente la mitad del viewport.
+- El progreso continúa siendo reversible con el scroll.
+- Se eliminó la transición temporal de la barra para que siga el scroll de forma directa, evitando retrasos al invertir la dirección.
+- No se modificaron el modelo PTR 3D, iconos, contenido legal, proyectos ni resto del diseño.
