@@ -20,7 +20,16 @@ const NEOFRAME_PROJECTS = [
             "assets/images/projects/cierre-perimetral/portada.jpeg",
 
         images: [
-            "assets/images/projects/cierre-perimetral/portada.jpeg"
+            "assets/images/projects/cierre-perimetral/portada.jpeg",
+            "assets/images/projects/cierre-perimetral/WhatsApp Image 2026-10-03 at 8.06.23 PM.jpeg",
+            "assets/images/projects/cierre-perimetral/WhatsApp Image 2026-10-03 at 8.06.24 PM.jpeg",
+            "assets/images/projects/cierre-perimetral/WhatsApp Image 2026-10-03 at 8.06.24 PM (1).jpeg",
+            "assets/images/projects/cierre-perimetral/WhatsApp Image 2026-10-03 at 8.06.27 PM.jpeg",
+            "assets/images/projects/cierre-perimetral/WhatsApp Image 2026-10-03 at 8.06.27 PM (1).jpeg",
+            "assets/images/projects/cierre-perimetral/WhatsApp Image 2026-10-03 at 8.06.27 PM (2).jpeg",
+            "assets/images/projects/cierre-perimetral/WhatsApp Image 2026-10-03 at 8.06.28 PM.jpeg",
+            "assets/images/projects/cierre-perimetral/WhatsApp Image 2026-10-03 at 8.06.28 PM (1).jpeg",
+            "assets/images/projects/cierre-perimetral/WhatsApp Image 2026-10-03 at 8.06.28 PM (2).jpeg"
         ],
 
         price: null,
@@ -49,7 +58,19 @@ const NEOFRAME_PROJECTS = [
             "assets/images/projects/porton/portada.jpeg",
 
         images: [
-            "assets/images/projects/porton/portada.jpeg"
+            "assets/images/projects/porton/portada.jpeg",
+            "assets/images/projects/porton/WhatsApp Image 2026-10-03 at 8.06.32 PM.jpeg",
+            "assets/images/projects/porton/WhatsApp Image 2026-10-03 at 8.06.32 PM (1).jpeg",
+            "assets/images/projects/porton/WhatsApp Image 2026-10-03 at 8.06.32 PM (2).jpeg",
+            "assets/images/projects/porton/WhatsApp Image 2026-10-03 at 8.06.33 PM.jpeg",
+            "assets/images/projects/porton/WhatsApp Image 2026-10-03 at 8.06.33 PM (1).jpeg",
+            "assets/images/projects/porton/WhatsApp Image 2026-10-03 at 8.06.33 PM (2).jpeg",
+            "assets/images/projects/porton/WhatsApp Image 2026-10-03 at 8.06.34 PM.jpeg",
+            "assets/images/projects/porton/WhatsApp Image 2026-10-03 at 8.06.35 PM.jpeg",
+            "assets/images/projects/porton/WhatsApp Image 2026-10-03 at 8.06.35 PM (1).jpeg",
+            "assets/images/projects/porton/WhatsApp Image 2026-10-03 at 8.06.35 PM (2).jpeg",
+            "assets/images/projects/porton/WhatsApp Image 2026-10-03 at 8.06.36 PM.jpeg",
+            "assets/images/projects/porton/WhatsApp Image 2026-10-03 at 8.06.36 PM (1).jpeg"
         ],
 
         price: null,
@@ -78,7 +99,8 @@ const NEOFRAME_PROJECTS = [
             "assets/images/projects/porton-corredera/portada.jpeg",
 
         images: [
-            "assets/images/projects/porton-corredera/portada.jpeg"
+            "assets/images/projects/porton-corredera/portada.jpeg",
+            "assets/images/projects/porton-corredera/WhatsApp Image 2026-10-03 at 8.06.31 PM.jpeg"
         ],
 
         price: null,
@@ -136,7 +158,8 @@ const NEOFRAME_PROJECTS = [
             "assets/images/projects/ampliacion/portada.jpg",
 
         images: [
-            "assets/images/projects/ampliacion/portada.jpg"
+            "assets/images/projects/ampliacion/portada.jpg",
+            "assets/images/projects/ampliacion/WhatsApp Image 2026-10-03 at 8.06.24 PM (2).jpeg"
         ],
 
         price: null,

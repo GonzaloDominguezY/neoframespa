@@ -1,0 +1,13 @@
+NeoFrame V4.2.5 - Galerías de proyectos
+
+Cambios:
+- Se revisaron las carpetas assets/images/projects/.
+- Se incorporaron a projects-data.js todas las fotografías adicionales encontradas para:
+  * Cierre Perimetral
+  * Portón Metálico
+  * Portón Corredera
+  * Ampliación Estructural
+- Cobertizo conserva solo portada.jpg porque no hay fotografías adicionales en su carpeta.
+- La portada de cada proyecto continúa siendo la imagen principal/hero.
+- Las fotografías adicionales aparecen en "Registro del proyecto" y funcionan con el lightbox ya existente (clic, anterior/siguiente y teclado).
+- No se modificó la experiencia 3D, Nuestro proceso, páginas legales ni el resto del diseño.

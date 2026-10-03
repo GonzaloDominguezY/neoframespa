@@ -1,0 +1,7 @@
+NeoFrame V4.2.6 — Mobile UX Fix
+
+Cambios exclusivos de experiencia móvil:
+- Servicios: grilla 2 x 4 en teléfonos, con tarjetas más compactas.
+- Nuestro proceso: conserva disposición horizontal de 4 etapas y línea de progreso animada.
+- Ensamblaje PTR 3D: cabecera separada de la escena, canvas desplazado hacia abajo y cámara móvil más alejada para mostrar la estructura completa.
+- Se mantienen galerías de proyectos de V4.2.5 y todas las mejoras anteriores.
