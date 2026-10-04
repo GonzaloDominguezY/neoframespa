@@ -49,7 +49,7 @@ const NEOFRAME_PROJECTS = [
 
         status: "Finalizado",
 
-        year: "2026",
+        year: "2025",
 
         description:
             "Fabricación e instalación de portón metálico a medida, desarrollado para entregar una solución resistente, funcional y acorde al espacio disponible.",
@@ -108,6 +108,39 @@ const NEOFRAME_PROJECTS = [
         featured: true
     },
 
+        {
+        id: "protecciones",
+
+        title: "Protecciones de Ventanas",
+
+        category: "Protecciones",
+
+        location: "Región de Valparaíso",
+
+        status: "Finalizado",
+
+        year: "2025",
+
+        description:
+            "Fabricación y montaje de diferentes tipos de protecciones metálicas para ventanas, diseñadas para brindar seguridad y estética al mismo tiempo.",
+
+        cover:
+            "assets/images/projects/protecciones/portada.jpg",
+
+        images: [
+            "assets/images/projects/protecciones/portada.jpg",
+            "assets/images/projects/protecciones/d8224278f4aef4ded872b7e849b6ab86.jpg",
+            "assets/images/projects/protecciones/bdf07dfb5a295e8151828c7f6696369b.jpg",
+            "assets/images/projects/protecciones/b2d38ee2141b9f452c74100cb3626c15.jpg",
+            "assets/images/projects/protecciones/a92cfcae1df4a064ee91a38a4603984d.jpg",
+            "assets/images/projects/protecciones/172d6114cbf1e6742cb115cf32b8c637.jpg"
+        ],
+
+        price: null,
+
+        featured: true
+    },
+
 
     {
         id: "cobertizo",
@@ -120,7 +153,7 @@ const NEOFRAME_PROJECTS = [
 
         status: "Finalizado",
 
-        year: "2026",
+        year: "2024",
 
         description:
             "Fabricación de estructura metálica para cobertizo, diseñada para proporcionar protección y aprovechar eficientemente el espacio disponible.",
@@ -149,7 +182,7 @@ const NEOFRAME_PROJECTS = [
 
         status: "Finalizado",
 
-        year: "2026",
+        year: "2024",
 
         description:
             "Fabricación de estructura metálica destinada a un proyecto de ampliación, desarrollada considerando resistencia, funcionalidad y aprovechamiento del espacio.",
